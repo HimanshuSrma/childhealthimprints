@@ -22,27 +22,27 @@
   pointer-events: none;
 }
 * body .navbar .dropdown-menu {
-  background-color: rgba(17, 43, 68, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 * body .navbar .dropdown-menu li {
-  color: #fff;
+  color: #000;
 }
 * body .navbar .dropdown-menu li a,
 * body .navbar .dropdown-menu li .dropdown-item {
-  color: #fff;
+  color: #000;
 }
 * body .navbar .dropdown-menu li a:focus, * body .navbar .dropdown-menu li a:hover,
 * body .navbar .dropdown-menu li .dropdown-item:focus,
 * body .navbar .dropdown-menu li .dropdown-item:hover {
-  color: #fff;
+  color: #000;
   font-weight: 600;
   background-color: transparent;
 }
 * body .navbar .nav-link {
-  color: #fff !important;
+  color: #000 !important;
 }
 * body .navbar .nav-link li a {
-  color: #fff;
+  color: #000;
 }
 * body header {
   min-height: 90vh;
