@@ -22,15 +22,15 @@
         pointer-events: none;
       }
       .dropdown-menu {
-        background-color: rgba(17, 43, 68, 0.5);
+        background-color: rgba(255, 255, 255, 0.5);
         li {
           color: #fff;
           a,
           .dropdown-item {
-            color: #fff;
+            color: #000;
             &:focus,
             &:hover {
-              color: #fff;
+              color: #000;
               font-weight: 600;
               background-color: transparent;
             }
@@ -38,10 +38,10 @@
         }
       }
       .nav-link {
-        color: #fff !important;
+        color: #000 !important;
         li {
           a {
-            color: #fff;
+            color: #000;
           }
         }
       }
