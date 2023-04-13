@@ -8,6 +8,10 @@
   }
 }
 
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+}
 
 * {
   font-family: "Inter";
@@ -130,7 +134,7 @@
       }
     }
     footer {
-      background: #112b44;
+      background: #f2f4f8;
       .text-SecondaryTheme{
         color: #4abdbf;
         &:hover{

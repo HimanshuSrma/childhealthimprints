@@ -7,6 +7,11 @@
     font-family: "Inter var", sans-serif;
   }
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+}
+
 * {
   font-family: "Inter";
   box-sizing: border-box;
@@ -109,7 +114,7 @@
   font-weight: bold;
 }
 * body footer {
-  background: #112b44;
+  background: #f2f4f8;
 }
 * body footer .text-SecondaryTheme {
   color: #4abdbf;
