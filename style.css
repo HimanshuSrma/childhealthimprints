@@ -15,6 +15,10 @@
   margin: 0;
   overflow-x: hidden;
 }
+* body #navBar {
+  background : rgba(255, 255, 255, 0.5);
+}
+
 * body .navbar .dropdown:hover > .dropdown-menu {
   display: block;
 }
