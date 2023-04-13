@@ -15,10 +15,9 @@
   margin: 0;
   overflow-x: hidden;
 }
-* body #navbar {
-  background : rgba(255, 255, 255, 0.5);
+* body .navbar {
+  background: rgba(255, 255, 255, 0.5);
 }
-
 * body .navbar .dropdown:hover > .dropdown-menu {
   display: block;
 }
@@ -29,7 +28,7 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 * body .navbar .dropdown-menu li {
-  color: #000;
+  color: #fff;
 }
 * body .navbar .dropdown-menu li a,
 * body .navbar .dropdown-menu li .dropdown-item {
@@ -95,7 +94,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.82);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 * body section img {
   max-height: 500px;
@@ -131,7 +130,23 @@
 }
 * body .parallax01 {
   background-image: url("https://keiferx.com/wp-content/uploads/2022/06/scans02-iStock-1295492941-1920x900-BW-transp.png");
-  min-height: 500px;
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* body .parallax02 {
+  background-image: url("https://keiferx.com/wp-content/uploads/2022/06/doctor-patient-iStock-1183448049-1920x911-BW2.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 500px) {

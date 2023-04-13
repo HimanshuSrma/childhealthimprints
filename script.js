@@ -7,7 +7,7 @@ $(document).ready(function () {
         // $("a.nav-link").css("color", "#fff");
     }else {
         console.log("Window Top")
-        $(".navbar").css("background", "rgba(255, 255, 255, 0.5)");
+        $(".navbar").css("background", "rgba(255, 255, 255, 0.2)");
         // $("a.nav-link").css("color", "#000");
       }
     })
