@@ -116,6 +116,10 @@
         }
       }
     }
+    .underlineDiv {
+      height: 5px;
+      background: linear-gradient(to right, #0367bf, #eeee22);
+    }
     section {
       img {
         max-height: 500px;
@@ -135,6 +139,7 @@
     }
     footer {
       background: #f2f4f8;
+      // background: #ff624b;
       .text-SecondaryTheme{
         color: #4abdbf;
         &:hover{

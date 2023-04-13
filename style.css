@@ -101,6 +101,10 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.25);
 }
+* body .underlineDiv {
+  height: 5px;
+  background: linear-gradient(to right, #0367bf, #eeee22);
+}
 * body section img {
   max-height: 500px;
   -o-object-fit: contain;
